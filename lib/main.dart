@@ -29,7 +29,7 @@ class FriendlyChatApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Friendly Chat',
+      title: 'Friendly Chat!',
       theme: defaultTargetPlatform == TargetPlatform.iOS
           ? kIOSTheme
           : kDefaultTheme,
@@ -64,10 +64,10 @@ class ChatMessage extends StatelessWidget {
                 children: [
                   Text(_name,
                       style: TextStyle(
-                          fontSize: 20.0,
-                          letterSpacing: 1.5,
-                          color: Colors.blueGrey.withOpacity(0.6),
-                          fontWeight: FontWeight.bold,
+                        fontSize: 20.0,
+                        letterSpacing: 1.5,
+                        color: Colors.blueGrey.withOpacity(0.6),
+                        fontWeight: FontWeight.bold,
                       )),
                   Container(
                     margin: EdgeInsets.only(top: 5.0),
